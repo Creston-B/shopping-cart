@@ -1,0 +1,124 @@
+    1  cd project
+    2  mkdir shopping-cart
+    3  cd shopping-cart/
+    4  mkdir src
+    5  cd src/
+    6  cd ..
+    7  git init 
+    8  touch gulpfile.js
+    9  npm init
+   10  dir
+   11  code package.json
+... typos
+   19  mv C:/Users/crest/clsshopping-cart/src ./src
+... typos / testing
+   45  echo "This is a student project showing a basic e-commerce site. Limited functionality." > readme.md
+   46  dir
+   47  git add .
+   48  git remote add origin https://github.com/Creston-B/shopping-cart.git
+   49  git push -u origin master
+   50  git branch -m main
+   51  git branch -m Main
+   52  git branch 
+   53  git status
+   54  git push origin 
+   55  git push -u origin
+   56  git push -u origin master
+   57  git branch
+   58  status
+   59  git statuts
+   60  git status
+   61  git add .
+   62  git push 
+   63  git push -u
+   64  git push --set-upstream origin
+   65  git push --set-upstream origin master
+   66  git remote add origin https://github.com/Creston-B/shopping-cart.git
+   67  git push --set-upstream origin master
+   68  git branch -M master
+   69  git branch master
+   70  git branch -M master
+   71  git init
+   72  git add .
+   73  git push -u 
+   74  git push -u origin master
+   75  git commit 
+   76  git commit -m "initial"
+   77  git push -u origin master
+   78  code .
+   79  npm install --save-dev gulp
+   80  npm install --save-dev gulp-postcss cssnano gulp-sourcemaps gulp-imagemin gulp-terser
+   81  gulp
+   82  code .
+   83  echo nodemaps / > .gitingnore
+   84  mv .gitingnore .gitignore
+   85  npm install --save-dev concat
+   86  npm install --save-dev gifsicle
+   87  npm install -d postcss
+   88  npm i -d gulp-concat
+   89  gulp
+   90  echo .gitignore > dist/
+   91  echo dist/ > .gitignore
+   92  cat .gitignore
+   93  echo node_modules >> .gitignore
+   94  cat .gitignore
+   95  echo node_modules/ >> .gitignore
+   96  cat .gitignore
+   97  git add .
+   98  git push 
+   99  git commit -m "finished adding gulp functionality, reeady to build"
+  100  git checkout -b color-change
+  101  echo "body {background-color: blue}" > src/css/newcolor.css
+  102  gulp
+  103  git add .
+  104  git push
+  105  git push -u origin color-change
+  106  git commit -m "made the background ugly-blue"
+  107  git add .
+  108  gulp
+  109  git push
+  110  git commit -m "made header ugly red, and total cost is purple"
+  111  git checkout -b featuretest
+  112  touch feature.js
+  113  mv feature.js src
+  114  mv src/feature.js src/js
+  115  gulp
+  116  npm i -d gulp-terser
+  117  gulp
+  118  code .
+  119  gulp
+  120  git add .
+  121  git push -u featuretest 
+  122  git push -u origin featuretest
+  123  git commit -m "added an annoying alert to go with the bad colours, touched up the gulp file"
+  124  git branch master
+  125  git checkout master
+  126  git merge color-change 
+  127  git merge featuretest
+  128  git commit -m "added the two branches in"
+  129  status
+  130  git status
+  131  git push
+  132  git revert a7c8234c1f54d57278bdb4a90df49ad1f2852322
+  133  git merge featuretest
+  134  branch
+  135  git branch
+  136  git branch -d featuretest
+  137  git log
+  138  checkout featuretest
+  139  git checkout featuretest
+  140  git add .
+  141  git push -u origin featuretest
+  142  git commit -m "ensured feature saved"
+  143  checkout master
+  144  git checkout master
+  145  git push
+  146  git commit -m "merges"
+  147  log
+  148  git log
+  149  git branch -d featuretest
+  150  git branch -d color-change
+  151  git branch -D color-change
+  152  echo "did a few changes in some files themselves to fix typos here and there"
+... typos
+  157  history > history.txt
