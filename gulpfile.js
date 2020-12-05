@@ -4,11 +4,11 @@ const postcss = require ("gulp-postcss");
 const sourcemaps = require("gulp-sourcemaps");
 const imagemin = require("gulp-imagemin");
 const terser = require("gulp-terser");
-const concat = require("gulp-concat");
+const concat = require("gulp-concat")
 
 function htmlTask () {
   return (src(`src/*.html`))
-  .pipe(dest(`./dist`));
+  .pipe(dest(`dist`));
 }
 
 function stylesTask () {
@@ -27,9 +27,7 @@ function fontsTask () {
 
 function scriptsTask () {
   return (src(`src/js/*.js`))
-  .pipe(sourcemaps.init())
   .pipe(terser())
-  .pipe(sourcemaps.write())
   .pipe(concat(`all.js`))
   .pipe(dest(`dist/js`));
 }
